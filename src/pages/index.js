@@ -1,0 +1,16 @@
+
+import Image from 'next/image'
+import Container from '../components/Container'
+
+import Header from '../components/Header'
+
+
+export default function Home() {
+  return (
+    <>
+    <Header/>
+    
+    <Container/>
+    </>
+  )
+}
